@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react'
-import { modeContext } from './Home'
+import { ModeContext } from './Home'
 
 const Task = () => {
-  const dataContext = useContext(modeContext)
+  const dataContext = useContext(ModeContext)
   const { darkToggle } = dataContext; 
 
   const [todos, setTodos] = useState([
@@ -28,9 +28,9 @@ const Task = () => {
   }
   return (
     <div
-      className={`${darkToggle ? ' bg-[#465460]' : 'bg-white'} ${
-        darkToggle ? 'text-white' : 'text-black'
-      } bg-white px-[15px] pt-[18px] pb-[25px] rounded-[15px] mt-[1.5rem] `}
+      className={`${
+        darkToggle ? ' bg-[#465460] text-white' : 'bg-white text-black'
+      } px-[15px] pt-[18px] pb-[25px] rounded-[15px] mt-[1.5rem] `}
     >
       <h1 className='font-[700] mb-[2rem]'>
         My Tasks <span className='text-[12px] opacity-70'>(05)</span>

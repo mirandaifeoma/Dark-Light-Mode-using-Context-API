@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
-import { modeContext } from './Home';
+import { ModeContext } from './Home';
 
 const Google = () => {
-  const dataContext = useContext(modeContext);
+  const dataContext = useContext(ModeContext);
   const { darkToggle } = dataContext;
   return (
     <div

@@ -1,9 +1,9 @@
 import React, {useContext} from 'react';
-import { modeContext } from './Home'
+import { ModeContext } from './Home'
 
 
 const Messages = () => {
-  const dataContext = useContext(modeContext);
+  const dataContext = useContext(ModeContext);
   const {darkToggle} = dataContext;
 
   return (

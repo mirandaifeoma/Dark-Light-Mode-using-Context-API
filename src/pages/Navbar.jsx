@@ -1,9 +1,9 @@
 import React, {useContext} from 'react'
-import { modeContext } from './Home'
+import { ModeContext } from './Home'
 
 
 const Navbar = ({button}) => {
-  const dataContext = useContext(modeContext)
+  const dataContext = useContext(ModeContext)
   const { darkToggle } = dataContext
   return (
     <div
@@ -27,9 +27,10 @@ const Navbar = ({button}) => {
         </p>
       </div>
       <div className='flex'>
-        <button className='phone:px-[10px] mr-[1rem]  border-red-400 border-[2px] rounded-full md:px-[20px] '>
+        <div className='phone:px-[10px] mr-[1rem]  border-red-400 border-[2px] rounded-full md:px-[20px] '>
           {button}
-        </button>
+        </div>
+        
         <i
           className='fa fa-bell-o phone:text-[2.5vmin] phone:mt-[5px] mr-3 md:text-[3vmin]'
           aria-hidden='true'

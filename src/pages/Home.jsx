@@ -2,18 +2,18 @@ import React, {createContext, useState} from 'react';
 import Sidebar from './Sidebar';
 import Body from './Body';
 
-export const modeContext = createContext()
+export const ModeContext = createContext()
 const initialState = false;
 
 const Home = () => {
   const [darkToggle, setDarkToggle] = useState(initialState);
 
   return (
-    <modeContext.Provider value={{ darkToggle, setDarkToggle }}>
+    <ModeContext.Provider value={{ darkToggle, setDarkToggle }}>
       <div
         className={`${
-          darkToggle ? ' bg-[black]' : ' bg-[rgb(247,246,244)] '
-        } bg-[rgb(247,246,244)] flex gap-[2%] pr-[1%]`}
+          darkToggle ? ' bg-slate-800' : ' bg-[rgb(247,246,244)] '
+        }  flex gap-[2%] pr-[1%]`}
       >
         <Sidebar />
         <Body
@@ -27,7 +27,7 @@ const Home = () => {
           }
         />
       </div>
-    </modeContext.Provider>
+    </ModeContext.Provider>
   )
 }
 

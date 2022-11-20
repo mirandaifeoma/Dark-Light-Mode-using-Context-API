@@ -1,9 +1,9 @@
 import React, { useState, useContext } from 'react'
-import {modeContext} from './Home'
+import {ModeContext} from './Home'
 
 const Sidebar = () => {
   const [active, setActive] = useState(false)
-  const dataContext = useContext(modeContext);
+  const dataContext = useContext(ModeContext);
   const { darkToggle } = dataContext
 
   const changeActive = () => {
@@ -13,7 +13,7 @@ const Sidebar = () => {
     <div
       className={`${active ? 'phone:w-[25%]' : 'phone:w-fit'} ${
         darkToggle ? 'bg-[#465460] text-white' : ' bg-white text-black'
-      }  relative md:fixed left-0  phone:py-[10px] phone:px-[.2rem] mobile1:w-[28%] md:h-screen md:w-[20%] phone:pl-[2%] bg-white `}
+      }  relative md:fixed left-0  phone:py-[10px] phone:px-[.2rem] mobile1:w-[28%] md:h-screen md:w-[20%] phone:pl-[2%] `}
     >
       <div className='flex justify-between'>
         <img

@@ -1,16 +1,16 @@
 import React, {useContext} from 'react';
-import { modeContext } from './Home'
+import { ModeContext } from './Home'
 
 
 export const Secondgoogle = () => {
-  const dataContext = useContext(modeContext);
+  const dataContext = useContext(ModeContext);
   const { darkToggle } = dataContext;
 
   return (
     <div
       className={`${darkToggle ? ' bg-[#465460]' : 'bg-white'} ${
         darkToggle ? 'text-white' : 'text-black'
-      } bg-white pt-[18px] pb-[25px] rounded-[15px] my-[1.5rem]`}
+      }  pt-[18px] pb-[25px] rounded-[15px] my-[1.5rem]`}
     >
       <div className='flex justify-between mx-[1rem]'>
         <h1 className='font-[700]'>Google</h1>
