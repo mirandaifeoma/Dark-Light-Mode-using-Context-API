@@ -43,7 +43,7 @@ const Sidebar = () => {
         >
           <div className='flex text-center'>
             <i
-              className='fa fa-th-large text-[4vmin] phone:mt-[10px] mobilel:mt-[12px] md:mt-[14px] '
+              className='fa fa-th-large text-[4vmin] phone:mt-[10px] mobile0:mt-[17px] mobilel:mt-[12px] md:mt-[14px] '
               aria-hidden='true'
             ></i>
 
@@ -63,7 +63,7 @@ const Sidebar = () => {
         </div>
         <div className='flex text-center opacity-50 '>
           <i
-            className='fa fa-id-card-o text-[4vmin] phone:mt-[10px] mobilel:mt-[12px] md:mt-[14px]'
+            className='fa fa-id-card-o text-[4vmin] phone:mt-[10px] mobile0:mt-[17px] mobilel:mt-[12px] md:mt-[14px]'
             aria-hidden='true'
           ></i>
           <h6
@@ -76,7 +76,7 @@ const Sidebar = () => {
         </div>
         <div className='flex text-center opacity-50 '>
           <i
-            className='fa fa-bars text-[4vmin] phone:mt-[10px] mobilel:mt-[12px] md:mt-[14px]'
+            className='fa fa-bars text-[4vmin] phone:mt-[10px] mobile0:mt-[17px] mobilel:mt-[12px] md:mt-[14px]'
             aria-hidden='true'
           ></i>
           <h6
@@ -89,7 +89,7 @@ const Sidebar = () => {
         </div>
         <div className='flex text-center opacity-50 '>
           <i
-            className='fa fa-calendar-o text-[4vmin] phone:mt-[10px] mobilel:mt-[12px] md:mt-[14px]'
+            className='fa fa-calendar-o text-[4vmin] phone:mt-[10px] mobile0:mt-[17px] mobilel:mt-[12px] md:mt-[14px]'
             aria-hidden='true'
           ></i>
           <h6
@@ -102,7 +102,7 @@ const Sidebar = () => {
         </div>
         <div className='flex text-center opacity-50'>
           <i
-            className='fa fa-clock-o text-[4vmin] phone:mt-[10px] mobilel:mt-[12px] md:mt-[14px]'
+            className='fa fa-clock-o text-[4vmin] phone:mt-[10px] mobile0:mt-[17px] mobilel:mt-[12px] md:mt-[14px]'
             aria-hidden='true'
           ></i>
           <h6
@@ -115,7 +115,7 @@ const Sidebar = () => {
         </div>
         <div className='flex text-center opacity-50 '>
           <i
-            className='fa fa-wpexplorer text-[4vmin] phone:mt-[10px] mobilel:mt-[12px] md:mt-[14px]'
+            className='fa fa-wpexplorer text-[4vmin] phone:mt-[10px] mobile0:mt-[17px] mobilel:mt-[12px] md:mt-[14px]'
             aria-hidden='true'
           ></i>
           <h6
@@ -128,7 +128,7 @@ const Sidebar = () => {
         </div>
         <div className='flex text-center opacity-50'>
           <i
-            className='fa fa-cog text-[4vmin] phone:mt-[10px] mobilel:mt-[12px] md:mt-[14px]'
+            className='fa fa-cog text-[4vmin] phone:mt-[10px] mobile0:mt-[17px] mobilel:mt-[12px] md:mt-[14px]'
             aria-hidden='true'
           ></i>
           <h6
